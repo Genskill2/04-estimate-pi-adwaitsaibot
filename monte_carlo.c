@@ -36,6 +36,18 @@ int main(void) {
       printf("Estimate with even %d iterations is %f which is not accurate enough.\n", i, pi0);
       abort();
     }
+    int x=0, y=0;
+    int inside=0,
+    for(int j=0,j<25000,j++)
+    {
+      frandom(x);
+      frandom(y);
+      float distance = sqrt(x^2+y^2);
+      if distance<=0;
+      inside+1;
+     float pi=4*(inside/25000);
+      printf("pi=%f"pi);
+    
   }
 }
 
