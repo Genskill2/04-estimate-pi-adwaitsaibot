@@ -41,7 +41,7 @@ int main(void) {
 float mc_pi(int n)
 {
     float x=0, y=0;
-    int inside=0, outside=0;
+    float inside=0, outside=0;
     for(int i=1;i<=n;i++)
     {
       x=frandom();
@@ -50,8 +50,8 @@ float mc_pi(int n)
       if(distance<=1)
       inside++;
       else 
-        outside++
-     float pi=4*(inside/outside);
+        outside++;
+     float pi = 4*(inside/outside);
       return pi;
     
   }
