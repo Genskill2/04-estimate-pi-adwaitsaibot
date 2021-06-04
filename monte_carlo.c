@@ -49,9 +49,8 @@ float mc_pi(int n)
       float distance=(x*x)+(y*y);
       if(distance<=1)
       { inside++;}
-      else 
-      {  outside++;}
-     float pi = 4*(inside/outside);
+   
+     float pi = 4*(inside/n);
       return pi;
     
   }
