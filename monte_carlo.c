@@ -40,13 +40,13 @@ int main(void) {
     int inside=0;
     for(int j=0;j<25000;j++)
     {
-      frandom(x);
-      frandom(y);
+      x=frandom();
+      y=frandom();
       float distance = sqrt(x^2+y^2);
       if (distance<=0);
       inside+1;
      float pi=4*(inside/25000);
-      printf("%f",pi);
+      return pi;
     
   }
 }
