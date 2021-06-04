@@ -36,9 +36,13 @@ int main(void) {
       printf("Estimate with even %d iterations is %f which is not accurate enough.\n", i, pi0);
       abort();
     }
+  }
+}
+float mc_pi(25000)
+{
     int x=0, y=0;
     int inside=0;
-    for(int j=0;j<25000;j++)
+    for(int j=1;j<25000;j++)
     {
       x=frandom();
       y=frandom();
@@ -49,7 +53,6 @@ int main(void) {
       return pi;
     
   }
-}
 }
 
 
