@@ -38,7 +38,7 @@ int main(void) {
     }
     int x=0, y=0;
     int inside=0;
-    for(int j=0,j<25000,j++)
+    for(int j=0;j<25000;j++)
     {
       frandom(x);
       frandom(y);
