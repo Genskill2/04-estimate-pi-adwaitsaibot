@@ -40,7 +40,7 @@ int main(void) {
 }
 float mc_pi(int n)
 {
-    float x=0, y=0;
+    float x,y;
    int circle=0, square=0;
     for(int i=1;i<=n;i++)
     {
