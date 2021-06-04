@@ -52,7 +52,7 @@ float mc_pi(int n)
       else
       {outside++;}
    
-     float pi = 4*(inside/(inside+outisde));
+     float pi = 4*(inside/(inside+outside));
       return pi;
     
   }
