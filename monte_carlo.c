@@ -41,7 +41,7 @@ int main(void) {
 float mc_pi(int n)
 {
     float x,y;
-   int circle=0, square=0;
+   int circle=0,square=0;
     for(int i=1;i<=n;i++)
     {
       x=frandom();
@@ -53,7 +53,7 @@ float mc_pi(int n)
       {square++;}
     }
   square=square+circle;
-     float pi = 4*(circle/square);
+     float pi=4*(float)circle/square;
       return pi;
     
   }
