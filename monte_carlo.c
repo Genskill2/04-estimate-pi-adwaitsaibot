@@ -43,7 +43,7 @@ int main(void) {
       frandom(x);
       frandom(y);
       float distance = sqrt(x^2+y^2);
-      if distance<=0;
+      if (distance<=0);
       inside+1;
      float pi=4*(inside/25000);
       printf("%f",pi);
