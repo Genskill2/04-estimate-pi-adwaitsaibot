@@ -46,8 +46,8 @@ float mc_pi(int n)
     {
       x=frandom();
       y=frandom();
-      float distance=(x*x)+(y*y);
-      if(distance<=1)
+    
+      if(((x*x)+(y*y))<=1)
       { circle++;}
       else
       {square++;}
