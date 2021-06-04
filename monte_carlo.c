@@ -46,7 +46,7 @@ int main(void) {
       if distance<=0;
       inside+1;
      float pi=4*(inside/25000);
-      printf("pi=%f"pi);
+      printf("%f"pi);
     
   }
 }
