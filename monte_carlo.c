@@ -54,6 +54,7 @@ float mc_pi(int n)
     }
   square=square+circle;
      float pi=4*(float)circle/square;
+  printf("%f"pi);
       return pi;
     
   }
